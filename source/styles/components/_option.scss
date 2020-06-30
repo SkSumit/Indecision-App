@@ -1,0 +1,9 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding:  $m-size;
+    p{
+        color: white;
+        word-break: break-all;
+    }
+}

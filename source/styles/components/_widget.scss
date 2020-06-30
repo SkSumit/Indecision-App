@@ -1,0 +1,23 @@
+.widget-header {
+    background: $blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+    h3{
+        margin: 0;
+    }
+}
+
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+  }
+  
+.widget-text{
+    color: white;
+    padding: $l-size;
+    display: flex;
+    justify-content: center;
+
+  }

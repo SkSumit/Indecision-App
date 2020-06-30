@@ -1,0 +1,16 @@
+.modal{
+    display: flex;
+    text-align: center;
+    word-break: break-all;
+    h1{
+        color: white;
+        font-weight: bold;
+        font-size: $l-size;
+        margin-bottom: $m-size;
+        padding: 2.4rem;
+        width: 100%;
+        font-style: italic;
+        word-break: break-all;
+    }
+   
+}
