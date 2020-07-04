@@ -9,6 +9,7 @@ import React from 'react';
     
      onFormSubmit = () => {
         const user = document.querySelector('select')
+        console.log('hi')
         
         this.props.dropdownValue(user.options[user.selectedIndex].value)
       }
@@ -18,8 +19,8 @@ import React from 'react';
         <div className='templateOptions'>
         
         <label htmlFor="users"><h4>Too Lazy? Select from curated options below</h4></label>
-            <select  onClick={this.onFormSubmit}  className="button" name="users" >
-                <option></option>
+            <select onChange={this.onFormSubmit}  className="button" name="users" >
+                <option>Default</option>
                 <option value="Atharva">Atharva</option>
                 <option value="Amitesh">Amitesh</option>
                 <option value="Charlotte">Charlotte</option>
