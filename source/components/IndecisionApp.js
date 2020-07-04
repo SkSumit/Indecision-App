@@ -8,6 +8,7 @@ import Action from './Action'
 import OptionModal from './OptionModal'
 import TemplateOptions from './TemplateOptions'
 import curatedOptions from './CuratedOption'
+import Footer from './Footer'
 
 
 
@@ -92,7 +93,7 @@ export default class IndecisionApp extends React.Component {
       return (
         <div>
           <Header />
-            <div className='container'>
+            <div className='container-main'>
               <Action hasOption ={ this.state.options.length > 0} handlePick = {this.handlePick}/>
               <TemplateOptions dropdownValue = {this.dropdownValue}/>
               <OptionModal  closeModal={this.closeModal} selectedOption={this.state.selectedOption} />
@@ -103,6 +104,7 @@ export default class IndecisionApp extends React.Component {
               
              
             </div>
+            <Footer/>
           
           
         </div>

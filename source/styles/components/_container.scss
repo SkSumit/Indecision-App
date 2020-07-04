@@ -1,5 +1,11 @@
-.container{
+.container-header{
     max-width: 60rem;
     margin: 0 auto;
     padding: 0 $m-size;
 }
+
+.container-main{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $m-size 10rem $m-size ;
+  }
